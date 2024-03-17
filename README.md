@@ -26,6 +26,7 @@
 <p> - 👉 rename .env </p>
 <p>- 👉 update db name db username db password </p>
 <p>- 👉 php artisan migrate --seed</p>
+<p>- 👉 Create a pusher Account </p> https://pusher.com
 <p>- 👉 Add Pusher Configuration </p> PUSHER_APP_ID,PUSHER_APP_KEY,PUSHER_APP_SECRET,PUSHER_APP_CLUSTER
 <p>- 👉 npm install</p>
 <p>- 👉 yarn install</p>
