@@ -3,7 +3,7 @@ Merge: 1ac8a75 90e43b0
 Author: Abdul Vakeel <abdulvakeel@skycodelab.io>
 Date:   Sat Mar 16 08:59:35 2024 +0530
 
-    Merge branch 'main' of https://github.com/AbdulVakeel/laravel-inertia-vuejs-with-tailwind-css-starter-kit
+    Merge branch 'main' of https://github.com/AbdulVakeel/laravel-live-chat-inertia-vuejs-with-tailwindcss
 
 [33mcommit 1ac8a75fc1031018fc3c9eba53e4e245ba3690ed[m
 Author: Abdul Vakeel <abdulvakeel@skycodelab.io>
@@ -33,4 +33,4 @@ Date:   Sat Mar 16 08:40:56 2024 +0530
 Author: Abdul Vakeel <abdulvakeel@skycodelab.io>
 Date:   Sat Mar 16 07:16:27 2024 +0530
 
-    Laravel Inertia Vue js With Tailwind Css Starter Kit 2024
+ Laravel Live Chat Inertia Vue js With Tailwind Css
