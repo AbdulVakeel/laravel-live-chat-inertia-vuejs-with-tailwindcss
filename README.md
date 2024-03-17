@@ -26,6 +26,7 @@
 <p> - 👉 rename .env </p>
 <p>- 👉 update db name db username db password </p>
 <p>- 👉 php artisan migrate --seed</p>
+<p>- 👉 Add Pusher Configuration </p> PUSHER_APP_ID,PUSHER_APP_KEY,PUSHER_APP_SECRET,PUSHER_APP_CLUSTER
 <p>- 👉 npm install</p>
 <p>- 👉 yarn install</p>
 <p>- 👉 yarn dev</p>
@@ -40,8 +41,8 @@
 <table>
 <thead>
 <tr>
-<th align="center">🤶🏼Admin Chat</th>
-<th align="center">🤹🏼User Chat</th>
+<th align="center">👽Admin Chat</th>
+<th align="center">🤖User Chat</th>
 </tr>
 </thead>
 <tbody>
