@@ -1,16 +1,20 @@
-// Import any necessary dependencies or modules here
+import Vue from 'vue';
 
-// Define your component
-const MyComponent = () => {
-    // Add your component logic here
+// Import Vue and any other dependencies
 
-    // Return the component's HTML or JSX
-    return (
+// Define your new component
+Vue.component('my-component', {
+    // Component options
+    template: `
         <div>
-            {/* Add your component's content here */}
+            <h1>Hello, I'm a new component!</h1>
+            <!-- Add your component's content here -->
         </div>
-    );
-};
+    `,
+    // Add any other component options or methods here
+});
 
-// Export your component
-export default MyComponent;
+// Mount your Vue app
+new Vue({
+    el: '#app',
+});
