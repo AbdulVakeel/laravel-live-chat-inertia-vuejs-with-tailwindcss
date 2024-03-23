@@ -32,15 +32,19 @@ Route::middleware([
 		/* ! admin dashboard  */
 		Route::get('/dashboard', [AdminDashboardController::class, 'dashboard'])->name('admin.dashboard');
 		
+
+		  ///  Chat  
+	Route::get('/chat/index', [ChatsController::class, 'index'])->name('admin.chat.index');
+
+
 		// Admin Profile
 		Route::get('/profile', [AdminProfileController::class, 'show'])->name('admin.profile.show');
 		Route::put('/profile-information', [AdminProfileController::class, 'update'])
 			->name('admin.profile.update');
 
 
-    ///  Chat  
-	Route::get('/chat', [ChatsController::class, 'index'])->name('admin.chat.index');
-	Route::get('/fetch-messages', [ChatsController::class, 'fetchChatUsers'])->name('admin.fetch.messages');
+  
+	Route::get('/fetch-messages-for-chat', [ChatsController::class, 'fetchChatUsers'])->name('admin.fetch.messages');
 	Route::post('/messages', [ChatsController::class, 'sendMessage'])->name('admin.sendMessage');
 	Route::post('/messages/read/{userId}', [ChatsController::class, 'readMessage'])->name('admin.message.read');
 
