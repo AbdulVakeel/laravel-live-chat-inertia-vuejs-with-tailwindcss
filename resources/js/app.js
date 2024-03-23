@@ -13,7 +13,7 @@ import moment from 'moment';
 import VWave from 'v-wave'
 
 
-/* For translation / localization */
+// this is a translations //
 import translations from '@/Composables/useTranslations.js';
 /* ============ */
 
